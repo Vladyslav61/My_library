@@ -1,0 +1,16 @@
+body {
+  font-size: 24px;
+  box-sizing: border-box;
+}
+/* Выравнивание текста ссылок по вертикали без дополнительных div  */
+/* Ссылка под всем объявленным блоком заданного размера, а не только под надписью */
+.link {
+  text-decoration: none;
+  /* display: block; */
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
