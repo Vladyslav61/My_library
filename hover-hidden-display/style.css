@@ -1,0 +1,45 @@
+.main {
+  width: 500px;
+  padding: 50px;
+  background-color: rgb(66, 58, 10);
+}
+.main > a {
+  color: #ffff;
+}
+.picture1 {
+  display: block;
+  margin: auto;
+}
+
+.picture2 {
+  display: none;
+  margin: auto;
+}
+.parent {
+  text-decoration: none;
+  width: 600px;
+  height: 400px;
+  text-align: center;
+}
+.line {
+  border: 1px solid #bc9548;
+  width: 200px;
+  margin: auto;
+}
+p.first {
+  display: none;
+}
+.parent:hover > .first,
+.parent:hover > .second {
+  display: block;
+  color: #bc9548;
+}
+.parent:hover > .second {
+  color: #bc9548;
+}
+.parent:hover > .picture1 {
+  display: none;
+}
+.parent:hover > .picture2 {
+  display: block;
+}
